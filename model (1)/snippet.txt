@@ -1,0 +1,14 @@
+<model-viewer src="lamborghini_urus_car.glb" ar ar-modes="scene-viewer webxr quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" environment-image="spruit_sunrise_1k_HDR.hdr" skybox-image="spruit_sunrise_1k_HDR.hdr" auto-rotate>
+    <button class="Hotspot" slot="hotspot-1" data-position="0.08449563938503613m 0.02520305988425559m 0.4454134754480166m" data-normal="-0.06175467983152087m 0.9322144180834024m 0.35659870756402084m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">barood</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
